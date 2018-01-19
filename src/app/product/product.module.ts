@@ -6,8 +6,8 @@ import { SharedModule } from '../shared/shared.module';
 
 import { ProductService } from './product.service';
 
-import { ProductListComponent } from './notes-list/notes-list.component';
-import { ProductDetailComponent } from './note-detail/note-detail.component';
+import { ProductListComponent } from './products-list/products-list.component';
+import { ProductDetailComponent } from './products-detail/products-detail.component';
 
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 

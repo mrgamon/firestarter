@@ -4,12 +4,12 @@
 <input [(ngModel)]="content" placeholder="Add your own note" class="input">
 
 
-<button class="button is-success" (click)="createNote()" [disabled]="content?.length < 2 || content?.length > 200">
+<button class="button is-success" (click)="createProduct()" [disabled]="content?.length < 2 || content?.length > 200">
   Add Note
 </button>
 <hr>
 <div *ngFor="let note of notes | async">
-  <note-detail [note]="note"></note-detail>
+  <roduct-detail [product]="note"></roduct-detail>
 </div>
 
 

@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
-import { NoteService } from '../note.service';
+import { ProductService } from '../product.service';
 
-import { Note } from '../note-model';
+import { Product } from '../product-model';
 
 import { Observable } from 'rxjs/Observable';
 
 @Component({
-  selector: 'notes-list',
+  selector: 'product-list',
   templateUrl: './notes-list.component.html',
   styleUrls: ['./notes-list.component.scss'],
 })

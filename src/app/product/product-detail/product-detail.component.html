@@ -1,0 +1,8 @@
+<div>
+  <h3>{{ product.content }}</h3>
+  <span class="button is-small is-info" (click)='addHeartToProduct(product.hearts)'>
+    Heart <i class="fa fa-heart"></i>
+  </span>
+  <span class="button is-small is-danger" (click)='deleteProduct(product?.id)'>Delete</span>
+  <p>This note has been hearted {{ note.hearts || 0 }} times.</p>
+</div>
