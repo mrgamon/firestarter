@@ -8,8 +8,8 @@ import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'product-list',
-  templateUrl: './notes-list.component.html',
-  styleUrls: ['./notes-list.component.scss'],
+  templateUrl: './products-list.component.html',
+  styleUrls: ['./products-list.component.scss'],
 })
 export class NotesListComponent implements OnInit {
 
