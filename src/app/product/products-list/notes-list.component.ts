@@ -21,7 +21,7 @@ export class NotesListComponent implements OnInit {
   ngOnInit() {
     // this.notes = this.noteService.getData()
     this.notes = this.noteService.getSnapshot();
-  }
+  }  
 
   createNote() {
     this.noteService.create(this.content);
